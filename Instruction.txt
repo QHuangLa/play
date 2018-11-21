@@ -1,0 +1,30 @@
+#Git Commands LINUX
+mkdir newfoldername
+cd newfoldername
+git clone http or SSH
+
+git checkout branchName
+vi filename->i->editing sth->esc->:wq
+git add filename
+git commit filename
+git push origin brachName
+
+git checkout master
+git add filename 
+git commit filename  (fatal: cannot do a partial commit during a merge.)
+git merge branchName (git commit -am 'Conflicts resolved')
+git push origin master
+
+%how to delete the useless branches
+git branch -d branchName
+
+git push upstream --delete branchName  %the remote branch
+
+%how to pull
+git checkout branchName
+git pull origin branchName   or   git pull origin master
+
+%how to push in the end
+git add .    or    git add filename
+git commit -m "filename"
+git push origin master  or   branchName
